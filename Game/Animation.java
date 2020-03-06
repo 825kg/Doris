@@ -1,11 +1,5 @@
 import org.jsfml.graphics.*;
-import org.jsfml.window.*;
-import org.jsfml.window.event.*;
 import org.jsfml.system.*;
-import java.util.Random;
-import java.util.Vector;
-import java.io.IOException;
-import java.util.ArrayList;
 
 public class Animation
 {

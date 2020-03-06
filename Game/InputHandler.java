@@ -2,7 +2,6 @@ import java.util.Vector;
 import org.jsfml.window.*;
 import org.jsfml.window.event.*;
 
-
 /**
  * Class used to handle user input.
  */
