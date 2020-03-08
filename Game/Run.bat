@@ -1,1 +1,1 @@
-java -cp libs\jsfml.jar; Doris
+java -cp libs\libtiled.jar;libs\jsfml.jar;libs\javax.jar;libs\a.jar;libs\b.jar;libs\c.jar; Doris

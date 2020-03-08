@@ -1,6 +1,7 @@
 {
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "libs/jsfml.jar"
+        "libs/jsfml.jar",
+        "libs/libtiled.jar"
     ]
 }

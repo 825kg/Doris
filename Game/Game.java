@@ -19,7 +19,7 @@ public class Game extends RenderWindow
     private View temp;
 
     private InputHandler inputHandler;
-    private Map map1;
+    private BigMap map1;
 
     /**
      * Starts a new game instance.
@@ -32,7 +32,7 @@ public class Game extends RenderWindow
         this.height = height;
         // Creates the input handler.
         inputHandler = new InputHandler(this);
-        map1 = new Map(this);
+        map1 = new BigMap(this);
         player = new Player("assets/player/rat.png", new Vector2f(0,0), this);
 
         create(new VideoMode(width, height), title, 4);

@@ -112,6 +112,12 @@ public class Helper
                 return true;
         return false;
     }
+    public static boolean collisionTest(Shape a, Shape b)
+    {
+        if(a.getGlobalBounds().intersection(b.getGlobalBounds())!= null)
+                return true;
+        return false;
+    }
 
     public static RectangleShape getCollisionBox(Entity a, Entity b, float dec1, float dec2)
     {

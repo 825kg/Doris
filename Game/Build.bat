@@ -1,1 +1,1 @@
-javac -cp libs\jsfml.jar *.java
+javac -cp libs\libtiled.jar;libs\jsfml.jar;libs\javax.jar;libs\a.jar;libs\b.jar;libs\c.jar *.java
